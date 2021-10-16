@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>MireTeal</title>
+</head>
+<body>
+		<!-- 
+		Вместо navbar-light bg-light можно прописать navbar-dark bg-dark.
+		Тогда шапка и текст в ней будет темным.
+	-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand logos" href="#"><img src="https://img.icons8.com/material/24/3e9120/minecraft-dirt-block.png"/> MireTeal</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toogle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a href="info.html" class="nav-link">Данные</a>
+					</li>
+					<li class="nav-item">
+						<a href="rule.html" class="nav-link">Правила</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Подробнее</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container welcomes">
+		<h1 class="text-primary text-center">MireTeal</h1>
+		<p class="fst-italic text-center">Добро пожаловать на сайт!</p>
+		<p class="text-center text-align">На этом сервере ты найдешь много интересных мини-игры, а тем не менее документацию о некоторых командах на сервере, и в общем какую либо информацию на этом сайте.</p>
+		<center>
+		<a href="info.html" class="btn btn-outline-success ">Данные сервера</a>
+		<a href="rule.html" class="btn btn-outline-success ">Правила сервера</a>
+		<a href=".fw-bolder" class="btn btn-outline-success ">Новости сервера</a>
+		<br><br>
+		<a href="https://shop.mteal.ga"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag" viewBox="0 0 16 16">
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg></a>
+		<a href="https://vk.com/miretealpe"><img src="https://img.icons8.com/material/50/000000/vk-com--v1.png"/></a>
+		</center>
+	</div>
+	<hr>
+	<div class="container cn">
+		<h1 class="fw-bolder">Что нового? v3.0</h1>
+		<div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+		  <div class="p-2 bd-highlight b-f">
+		<p>Ничего удивительного на вид, но, если присмотреться, можно узнать... Что появился новый мини-режим под названием <b>SkyBlock</b>! Всех советуем поиграть, данные для входа <abbr title="play.mteal.ga 19132">нажми</abbr>.</p>
+		</div>
+		  <div class="p-2 bd-highlight">
+		<img src="img/img.png" alt="photos" class="border-circle">
+		  </div>
+		</div>
+		<a href="https://vk.com/miretealpe" class="fw-bolder" style="font-size: 30px;text-decoration: none;color: #000;">Посты ВКонтакте</a>
+		<div class="container vkposts">
+			<div id="vk_post_-200184495_431"></div>
+<script type="text/javascript">
+  (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://vk.com/js/api/openapi.js?169"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
+  (function() {
+    if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post('vk_post_-200184495_431', -200184495, 431, 'iVV1ELQ4G3T2UZsew2UykqZcYm7_')) setTimeout(arguments.callee, 50);
+  }());
+</script>
+		</div>
+	</div>
+	<div class="footer bg-dark border-secondary rounded-top">
+		<div class="block">
+			<br><br><br>
+			<p class="text-center text-primary">Авторские права защищены © MireTeal</p>
+			<br><br><br>
+		</div>
+	</div>
+</body>
+</html>
